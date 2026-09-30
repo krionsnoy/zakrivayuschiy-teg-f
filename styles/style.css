@@ -11,12 +11,6 @@
   background-size: cover;
   background-attachment: fixed;
 }
-.svg-sprite {
-  position: absolute;
-  inline-size: 0;
-  block-size: 0;
-  overflow: hidden;
-}
 .content-width {
   inline-size: var(--content-width);
   max-inline-size: 100%;
@@ -182,6 +176,7 @@
 }
 .button__icon {
   flex-shrink: 0;
+  filter: invert(1);
   inline-size: 21px;
   block-size: 21px;
 }
