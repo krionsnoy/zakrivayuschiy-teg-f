@@ -176,7 +176,6 @@
 }
 .button__icon {
   flex-shrink: 0;
-  filter: invert(1);
   inline-size: 21px;
   block-size: 21px;
 }
